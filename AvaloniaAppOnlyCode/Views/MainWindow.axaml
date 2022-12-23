@@ -7,11 +7,5 @@
         x:Class="AvaloniaAppOnlyCode.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="AvaloniaAppOnlyCode">
-
-    <Design.DataContext>
-        <vm:MainWindowViewModel/>
-    </Design.DataContext>
-
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
+  <Canvas x:Name="MyCanvas"/>
 </Window>
